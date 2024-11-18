@@ -49,10 +49,11 @@ body{
     font-size: 20px;
     font-weight: 600px;
     cursor: pointer;
-    margin-left: 5px;
-    background-color: #0795fe;
+    margin-left: 2px;
+    background-color: #262626;
     color: white;
 }
+/* #3e4d6c */
 
 .ul
 {
