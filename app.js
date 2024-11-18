@@ -17,10 +17,6 @@ function todo() {
 
         deleteBtn.addEventListener('click', () => {
             accessUl.removeChild(createlist);
-            if(deleteBtn.event.key==="mouseover")
-            {
-                document.write("Success");
-            }
         })
 
     } else {
@@ -29,7 +25,7 @@ function todo() {
 }
 
 btnClick.addEventListener("click", todo)
-getInput.addEventListener("keypress", (event) => {
+getInput.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
         todo()
     }
